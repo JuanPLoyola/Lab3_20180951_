@@ -19,14 +19,14 @@ public class Clinica {
     @Column(name = "telefono", nullable = false)
     private String telefono;
 
-    public int getid(){return id}
+    public int getid(){return id; }
     public void setId(int id){this.id=id; }
 
-    public String getid(){return id}
-    public void setId(String id){this.nombre=nombre; }
+    public String getNombre(){return nombre; }
+    public void setNombre(String id){this.nombre=nombre; }
 
-    public int getid(){return id}
-    public void setId(int id){this.id=id; }
+    public String getdireccion(){return direccion; }
+    public void setDireccion(String id){this.direccion=direccion; }
 
 
 
